@@ -53,7 +53,7 @@ public class JSONService {
 
 	private final Logger log = LoggerFactory.getLogger(this.getClass());
 	private static INGConstant INGCONSTANT = INGConstant.getInstance();
-	final static String BaseUrl = OBPApi.getApiEndpoint()+"/obp/v2.1.0";
+	final static String BaseUrl = OBPApi.getApiEndpoint()+"/obp/v2.2.0";
 
 	private static APIAccessHandler session = APIAccessHandler.getInstance();
 
