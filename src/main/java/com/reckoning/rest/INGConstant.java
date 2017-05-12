@@ -105,6 +105,8 @@ public class INGConstant {
             BanksShortName.put("at02-0073--01", "Open Bank");
             BanksShortName.put("at02-0075--01", "Banco Popular");
             BanksShortName.put("at02-2048--01", "Liber Bank");
+            BanksShortName.put("ing", "ING Bank");
+
         }
         return BanksShortName;
     }
@@ -130,7 +132,7 @@ public class INGConstant {
             tempService = new ServiceBuilder()
                     .apiKey(a.substring(0, a.indexOf(":")))
                     .apiSecret(a.substring(a.indexOf(":")+1))
-                    .callback("https://auth-reckoning.herokuapp.com/ReckonINGExample/callBack/")
+                    .callback("https://reckoning.pagekite.me/ReckonINGExample/callBack/")
                     .build(OBPApi.instance());
             serviceMap.put(i++, tempService);
         }

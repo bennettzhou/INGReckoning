@@ -52,7 +52,7 @@ public class APIAccessHandler {
             UserAuthUtil.writeCacheReqToken(requestToken);
             System.out.println("These are the request keys : ");
             UserAuthUtil.printCachebyName("req_token");
-            System.out.println("This is the raw response for fetched token : ");
+            System.out.println("This is the raw response for fetched token : "+authUrl);
             System.out.println(UserAuthUtil.readCacheReqToken(requestToken.getToken()).getRawResponse());
 
         } catch (IOException e) {
