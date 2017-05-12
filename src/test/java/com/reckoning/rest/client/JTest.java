@@ -24,7 +24,7 @@ public class JTest {
         //j.getMyAccounts("iamben");
         //j.getMyTransactionHistory("superhero");
         j.getBanks();
-        j.getBanks();
+        j.goToLoginPage();
 
         //System.out.println("Open Account Balance>>>>>>>>>>>>: "+j.getAccountById("iamben", "at02-0075--01", "iamben_pop").getAmount());
         //System.out.println("ING Account Balance>>>>>>>>>>>>: "+j.getAccountById("iamben", "at02-1465--01", "iamben_ing").getAmount());
