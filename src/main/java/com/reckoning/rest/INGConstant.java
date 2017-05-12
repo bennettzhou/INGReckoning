@@ -27,12 +27,18 @@ public class INGConstant {
         //initialize
         if(Credentials == null) {
             Credentials = new Vector<String>();
-            Credentials.add("hsgqiuhwst4aooxh3kes5b1nnufxo4tbmjx4osvw:dmzfauabbsaovaexx2qbvurvjvidsy0akgjrrvax");
-            Credentials.add("y2qfclur5u0rdfynuiodqfmrkoplw5rolkxiydb4:q3chtynidpbl2n45kxkbk4ichjuyx0dtemnwbjw1");
-            Credentials.add("d0twqchizlvrut0l2rksr511j32js3vmrgnlsalg:apzeijg0zaitjyxqlga14jfgdsvjj4qbbg40g4au");
-            Credentials.add("eyo5pjbtrv5hqaxl521tyaln12abqdhtvgqpgnpb:mp2cxkzjlp2zi0bjif331evrgx5x5vff1p2r1cbk");
-            Credentials.add("3cphzup3morcvokdi45yopzag2ubheqpl4wpyrhd:afqy2xlg3otgnqujyu0s331hpkplypowxmq1pla5");
-            Credentials.add("jn3x5cawjzdslfvlfmltmukupyzpu3ybt41jzrjz:suq0k0d4b3lahfaa423sedad3jj23h05uvkqtba3");
+            //Credentials.add("hsgqiuhwst4aooxh3kes5b1nnufxo4tbmjx4osvw:dmzfauabbsaovaexx2qbvurvjvidsy0akgjrrvax");
+            //Credentials.add("y2qfclur5u0rdfynuiodqfmrkoplw5rolkxiydb4:q3chtynidpbl2n45kxkbk4ichjuyx0dtemnwbjw1");
+            //Credentials.add("d0twqchizlvrut0l2rksr511j32js3vmrgnlsalg:apzeijg0zaitjyxqlga14jfgdsvjj4qbbg40g4au");
+            //Credentials.add("eyo5pjbtrv5hqaxl521tyaln12abqdhtvgqpgnpb:mp2cxkzjlp2zi0bjif331evrgx5x5vff1p2r1cbk");
+            //Credentials.add("3cphzup3morcvokdi45yopzag2ubheqpl4wpyrhd:afqy2xlg3otgnqujyu0s331hpkplypowxmq1pla5");
+            //Credentials.add("jn3x5cawjzdslfvlfmltmukupyzpu3ybt41jzrjz:suq0k0d4b3lahfaa423sedad3jj23h05uvkqtba3");
+            Credentials.add("4ynabm3l0uvbijpgg202sdg5xh5w4mcsp2yexncb:dnhza1xxje25dmauhgbcwgoydgi0ohht0x4q2dnm");
+            Credentials.add("jldfdsj2tgpugmvs3q5rjcyisaro50mfokxhvzzk:pyl2yvjprppmqnx3xswhjawerd34kn2igms2ydjj");
+            Credentials.add("fpals0435k42zgyameazpfqrxm0pdvxylk2gxadd:4hq0hhbofxyjpmhvxu4bg4rswse41fwz2pdgfexv");
+            Credentials.add("ff5ozmaatrfeb00t0iufgy0io5gtbod4ld51yyum:bcluzbfmphrvr31pprarp2uetlzzfhqnwu235o1t");
+            Credentials.add("g04y3vvisolazint0pt3jhnjl5yhw5ftpebiovpg:tll5mg0qrtgjvydbppvbggykgf5rpfikgkdchj03");
+            Credentials.add("ev4lqvijt0ffepqbsbtl3yqfcodeqg0ltu3qtb2u:wpvf1gaculsmrc33wib1pwb0iqbgmsyvnk2gldol");
         }
         initiateServices();
         log.info("INGConstant created...");
