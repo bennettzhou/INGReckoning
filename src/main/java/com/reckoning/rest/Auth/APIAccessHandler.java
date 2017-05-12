@@ -37,7 +37,7 @@ public class APIAccessHandler {
 
     private String userEndPoint = "https://apisandbox.openbankproject.com/obp/v2.0.0/users/current";
 */
-    final static String userEndPoint = OBPApi.getApiEndpoint()+"/obp/v2.2.0/users/current";
+    final static String userEndPoint = OBPApi.getApiEndpoint()+"/obp/v2.1.0/users/current";
 
     private static INGConstant INGCONSTANT = INGConstant.getInstance();
 

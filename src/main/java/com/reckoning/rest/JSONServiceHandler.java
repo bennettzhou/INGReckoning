@@ -18,7 +18,7 @@ import java.util.HashMap;
 public class JSONServiceHandler {
     APIAccessHandler session = APIAccessHandler.getInstance();
     //final static String BaseUrl = "https://apisandbox.openbankproject.com/obp/v2.0.0";
-    final static String BaseUrl = OBPApi.getApiEndpoint()+"/obp/v2.2.0";
+    final static String BaseUrl = OBPApi.getApiEndpoint()+"/obp/v2.1.0";
 
     @GET
     @Path("/welcome")
